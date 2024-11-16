@@ -1,0 +1,71 @@
+/* src/components/CardComponent.css */
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .card-id {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  
+  .card-title {
+    font-size: 14px;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  .card-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #666;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  .card-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #edeff2;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+.tag-icon {
+    background-color: #bec2c8;
+    border-radius: 9999px;
+    height: 0.75rem;
+    width: 0.75rem;
+}
+.tag-text {
+    color: #6b6f76;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
